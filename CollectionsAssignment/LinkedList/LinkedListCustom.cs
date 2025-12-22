@@ -34,13 +34,14 @@ public class LinkedListCustom<T> : ILinkedList<T>
 
     public void AddToEnd(T item)
     {
-        if (Head is null)
+        Node<T?> newNode = new Node<T?>(item, null);
+        if(Head is null)
         {
+            Head = newNode;
             return;
         }
-        Node<T?> newNode = new Node<T?>(item, null);
         Node<T?>? currentNode = Head;
-        while(currentNode.Next != null)
+        while (currentNode.Next != null)
         {
             currentNode = currentNode.Next;
         }
@@ -49,10 +50,6 @@ public class LinkedListCustom<T> : ILinkedList<T>
 
     public void AddToFront(T item)
     {
-        if (Head is null)
-        {
-            return;
-        }
         Node<T?> newNode = new Node<T?>(item, null);
 
         var currHead = Head;

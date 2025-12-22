@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using Utilities;
 
 var customCollection = new CustomCollection(["aaa", "bbb"]);
 
@@ -35,10 +36,10 @@ var items = new string?[] { "a", "b", null, "d", "e", "f" };
 //    Console.WriteLine(num);
 //}
 var itemsReversed = GetAllAfterLastNullReversed(items); // {"f", "e", "d"}
-foreach (var item in itemsReversed)
-{
-    Console.WriteLine(item);
-}
+
+var itemsOnNewLine = items.AsNewLine();
+Console.WriteLine(itemsOnNewLine);
+
 Console.ReadKey();
 
 
