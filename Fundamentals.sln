@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsAssignment", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{7816CFC1-322E-4E56-BC6E-ED6061DCDBE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsDataAggregator", "TicketsDataAggregator\TicketsDataAggregator.csproj", "{94A19301-D540-43E1-9B9E-1E0A21CA180F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{7816CFC1-322E-4E56-BC6E-ED6061DCDBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7816CFC1-322E-4E56-BC6E-ED6061DCDBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7816CFC1-322E-4E56-BC6E-ED6061DCDBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A19301-D540-43E1-9B9E-1E0A21CA180F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A19301-D540-43E1-9B9E-1E0A21CA180F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A19301-D540-43E1-9B9E-1E0A21CA180F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A19301-D540-43E1-9B9E-1E0A21CA180F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
