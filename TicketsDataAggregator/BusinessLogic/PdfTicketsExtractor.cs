@@ -21,7 +21,7 @@ namespace TicketsDataAggregator.BusinessLogic
 
         public IEnumerable<Ticket> Extract(string path)
         {
-            var files = Directory.EnumerateFiles(path, "*pdf", SearchOption.TopDirectoryOnly);
+            var files = Directory.EnumerateFiles(path, "*.pdf", SearchOption.TopDirectoryOnly);
 
             List<Ticket> tickets = new List<Ticket>();
             foreach (var file in files)
