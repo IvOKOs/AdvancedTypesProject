@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsDataAggregator", "TicketsDataAggregator\TicketsDataAggregator.csproj", "{94A19301-D540-43E1-9B9E-1E0A21CA180F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{AD7217F3-AE51-431F-85FE-6E33029495EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericTypesSuggester", "NumericTypesSuggester\NumericTypesSuggester.csproj", "{B69460B2-EC41-408A-8F0D-A687F85FB4EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{94A19301-D540-43E1-9B9E-1E0A21CA180F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94A19301-D540-43E1-9B9E-1E0A21CA180F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94A19301-D540-43E1-9B9E-1E0A21CA180F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7217F3-AE51-431F-85FE-6E33029495EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7217F3-AE51-431F-85FE-6E33029495EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7217F3-AE51-431F-85FE-6E33029495EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7217F3-AE51-431F-85FE-6E33029495EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69460B2-EC41-408A-8F0D-A687F85FB4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69460B2-EC41-408A-8F0D-A687F85FB4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69460B2-EC41-408A-8F0D-A687F85FB4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69460B2-EC41-408A-8F0D-A687F85FB4EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
